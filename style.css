@@ -36,13 +36,16 @@ main{
 .child2{
     background-color: orange;
 }
+
 .header-children:last-child{
     background-color:green;
     margin-right:0;
 }
+
 .row-container{
     display:flex;
 }
+
 .row-children{
     flex:1;
     display:flex;
@@ -54,16 +57,23 @@ main{
     margin-right:2em;
     background-color: white;  
 }
+
 .row-children:last-child{
     margin-right:0;
 }
+
 .inner-container{
     display:flex;
     flex-direction:column;
+    flex:1;
 }
 
 .inner-children{
-flex: 1;
-background-color: pink;
-min-width: 100%;
+    flex: 1;
+    background-color: pink;
+    margin-bottom: 0.3em;
+}
+
+.inner-children:last-child{
+    margin-bottom:0;
 }
