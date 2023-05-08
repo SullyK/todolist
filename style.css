@@ -68,10 +68,14 @@ main{
 }
 
 .inner-children{
+    display:flex;
     flex: 1;
     background-color: pink;
-    min-height:3em;
-    margin-bottom: 0.3em;
+    min-height:5em;
+    border-radius:0.5em;
+    margin-bottom: 0.5em;
+    justify-content:center;
+    align-items: center;
 }
 
 .inner-children:last-child{
