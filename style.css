@@ -44,6 +44,9 @@ main{
 
 .row-container{
     display:flex;
+    flex:1;
+    max-height:500px;
+    overflow:auto;
 }
 
 .row-children{
@@ -74,10 +77,34 @@ main{
     min-height:5em;
     border-radius:0.5em;
     margin-bottom: 0.5em;
-    justify-content:center;
-    align-items: center;
+    #justify-content:center;
+    #align-items: center;
 }
 
 .inner-children:last-child{
     margin-bottom:0;
+}
+
+.small-box{
+    border:3px solid black;
+    width:30px;
+    height:30px;
+}
+
+.drag-row{
+    display:flex;
+   align-items:center;
+   justify-content: center;
+}
+
+.text-in-box{
+    #display:flex;
+   #align-items: center;
+   #justify-content: center;
+    background-color:green;
+}
+
+.within-box{
+    background-color:orange;
+
 }
