@@ -73,7 +73,7 @@ main{
 .inner-children{
     display:flex;
     flex: 1;
-    background-color: pink;
+    background-color: grey;
     min-height:5em;
     border-radius:0.5em;
     margin-bottom: 0.5em;
@@ -85,16 +85,23 @@ main{
     margin-bottom:0;
 }
 
-.small-box{
-    border:3px solid black;
-    width:30px;
-    height:30px;
+.text-area{
+    min-width:80%;
+    min-height:100%;
+    max-width:80%;
+    max-height:100%;
 }
+.drag-area{
+    background-color: blue;
+    align-self: flex-end;
+        border:3px solid black;
+    min-width:20%;
+    min-height:100%;
+    max-width:20%;
+    max-height:100%;
 
-.drag-row{
-    display:flex;
-   align-items:center;
-   justify-content: center;
+   #align-items:center;
+   #justify-content: center;
 }
 
 .text-in-box{
